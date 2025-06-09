@@ -5,6 +5,6 @@ if(isNaN(parseInt(process.argv[2]))){
 else{
     const y=parseInt(process.argv[2]);
     for (i=0;i<y;i++){
-        console.log('x'.repeat(y));
+        console.log('X'.repeat(y));
     }
 }
